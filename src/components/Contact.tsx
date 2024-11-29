@@ -9,15 +9,15 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <Section id="contact" divClassName="">
-      <div className="w-full md:w-1/2 flex flex-col gap-5">
+    <Section id="contact" className="justify-center" divClassName="justify-center">
+      <div className="w-full md:w-1/2 flex flex-col gap-5 items-center">
         <SectionHeading
           className="text-center md:text-left"
           title="Contact Me"
         />
         <div className="flex flex-col gap-10">
           {/* Email and resume */}
-          <div className="flex flex-col text-center md:text-left gap-2">
+          <div className="flex flex-col text-center md:text-left gap-2 items-center">
             <p>
               Contact me at{" "}
               <a
@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
 
           {/* Contact buttons */}
-          <div className="flex gap-8 text-3xl justify-center md:justify-start dark:text-green-wala">
+          <div className="flex gap-8 text-3xl justify-center items-center dark:text-green-wala">
             <a
               href="https://www.linkedin.com/in/utkarsh-jain-31b507b8/"
               target="_blank"
@@ -58,9 +58,9 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2">
-        <ContactForm />
-      </div>
+      {/* <div className="w-full md:w-1/2"> */}
+        {/* <ContactForm /> */}
+      {/* </div> */}
     </Section>
   );
 };
