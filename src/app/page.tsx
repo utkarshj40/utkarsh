@@ -26,7 +26,7 @@ export default function Home() {
       <Experience />
 
       {/* Contact Section */}
-      <Contact />
+      {/* <Contact />s */}
 
       {/* Footer */}
       {/* <Footer /> */}

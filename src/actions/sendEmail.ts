@@ -13,7 +13,7 @@ export async function sendEmail(formData: FormData) {
     try {
       const { data, error } = await resend.emails.send({
         from: "onboarding@resend.dev",
-        to: "7naveennn@gmail.com",
+        to: "utkarshj40@gmail.com",
         subject: subject as string,
         reply_to: senderEmail as string,
         html: message as string,
